@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap');
+@import url(reset.css);
+
+/*---------화면단-----------*/
+
+.container{
+    height: 100vh;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 48px;
+}
+/*-----------------------------------------------*/
+
+.info fieldset { 
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    border: none;
+}
+
+.info fieldset legend{
+    position: absolute;
+    left: -999em;
+}
+
+.info fieldset input{
+    width: 30%;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: #F1F1F5;
+}
+
+.info fieldset button {
+    width: 6rem;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    color: #A1A1A3;
+}
+
+.info fieldset .signup_button {
+    width: 30%;
+    background-color: #1785F2;
+    color:#FFFFFF
+}

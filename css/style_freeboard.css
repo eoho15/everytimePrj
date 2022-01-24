@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap');
+@import url(reset.css);
+
+/* layout */
+
+body{
+    width:100%;
+}
+
+body>header{ 
+    height: 90px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+article{
+    margin-top: 30px;
+    height: 170px;
+    background-image: url("../images/3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.post-list{
+    padding: 48px;
+}
+
+.post-list>div{
+    border-bottom: 1px solid black;
+    height: 140px;
+}
+
+
+
+/* content */
+
+/* content-header */
+.left-i>img{
+    width:58px;
+    height: 70px;
+}
+
+
+.left-i , .right-i{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 47px;
+}
+
+.left-i>h2 {
+    margin-left: 20px;
+    
+}
+
+.right-i>svg {
+    margin: 30px;
+}
+
+
+
+/* content-article */
+article {
+
+    background-color: #E0E0E0;
+    margin-bottom:50px;
+}
+
+
+/* content-info */
+.info{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.post-list>div>p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.writing {
+    position: fixed;
+    bottom: 20px;
+    left:45%;
+    width: 200px;
+}

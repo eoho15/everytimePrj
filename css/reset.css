@@ -1,0 +1,16 @@
+*{ 
+    margin:0;   
+    padding:0;
+    font-family: 'Noto Sans CJK KR';
+    font-size: 28px;
+
+}
+
+a {text-decoration: none;
+}
+
+button { cursor: pointer;
+}
+
+
+/* commit message! */
